@@ -79,9 +79,9 @@ class Template {
       return coreUtils.remote.checkIfUrlExists(this.source)
     }
 
-    download(dir) {
+    download(dir, options) {
       // Fetch the remote archive and unarchive it locally
-      return coreUtils.remote.downloadFromUrl(this.source, dir)
+      return coreUtils.remote.downloadFromUrl(this.source, dir, options)
     }
 
     configure(dir) {
