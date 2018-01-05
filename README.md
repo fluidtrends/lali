@@ -30,24 +30,6 @@ lali.link(<a .tar.gz link>).install(<local path>)
      })
 ```
 
-## Code Quality
-
-Lali is well tested and releases are not published unless the coverage is in the high 90s.
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/test_coverage)](https://codeclimate.com/github/idancali/lali/test_coverage)
-
-### Unit Tests
-
-<a href="https://circleci.com/gh/idancali/lali"> <img src="https://circleci.com/gh/idancali/lali.svg?style=svg"> </a>
-
-```
-  ✓ check if a link exists
-  ✓ detect if an invalid link does not exist
-  ✓ detect if a link does not exist
-  ✓ fail to download a link
-  ✓ successfully install a link
-```
-
 ## Dependencies
 
 Lali makes use of the following libraries:
