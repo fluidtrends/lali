@@ -8,8 +8,7 @@
 <p align="center">
     <a href="https://www.npmjs.com/package/lali"> <img src="https://img.shields.io/npm/v/lali.svg"> </a>
     <a href="https://circleci.com/gh/idancali/lali"> <img src="https://circleci.com/gh/idancali/lali.svg?style=svg"> </a>
-    <a href="https://codeclimate.com/github/idancali/lali"> <img src="https://codeclimate.com/github/idancali/lali/badges/coverage.svg"> </a>
-    <a href="https://codeclimate.com/github/idancali/lali/maintainability"><img src="https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/maintainability" /></a>
+    <a href="https://codeclimate.com/github/idancali/lali/test_coverage"><img src="https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/test_coverage" /></a>    <a href="https://codeclimate.com/github/idancali/lali/maintainability"><img src="https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/maintainability" /></a>
     <a href="http://standardjs.com"><img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg"></a>
 </p>
 
@@ -17,7 +16,7 @@
 
 Lali helps you install amorphous links locally. Lali understands an amorphous link as being a remote Tar GZip archive.
 
-## Build Status [![Module](https://img.shields.io/npm/v/lali.svg)](https://www.npmjs.com/package/lali)
+## Latest Build Status [![Module](https://img.shields.io/npm/v/lali.svg)](https://www.npmjs.com/package/lali)
 [![Build](https://circleci.com/gh/idancali/lali.svg?style=svg)](https://circleci.com/gh/idancali/lali)
 [![Coverage](https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/test_coverage)](https://codeclimate.com/github/idancali/lali/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/maintainability)](https://codeclimate.com/github/idancali/lali/maintainability)
