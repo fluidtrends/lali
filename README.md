@@ -2,9 +2,9 @@
 <img src="https://raw.githubusercontent.com/idancali/lali/master/logo.png" width="256px">
 </p>
 
-<h1 align="center"> Lali - The Local Amorphous Link Installer  </h1>
+# Lali
 
-# Summary
+### The Local Amorphous Link Installer
 
 [![Module](https://img.shields.io/npm/v/lali.svg)](https://www.npmjs.com/package/lali)
 [![Build](https://circleci.com/gh/idancali/lali.svg?style=svg)](https://circleci.com/gh/idancali/lali)
