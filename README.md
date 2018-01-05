@@ -40,7 +40,7 @@ Creates a reference to an amorphous link.
 **Example:**
 
 ```
-lali.link('http://some/url/goes/here.tar.gz')
+const link = lali.link('http://some/url/goes/here.tar.gz')
 ```
 
 ## Link API
