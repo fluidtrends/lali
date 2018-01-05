@@ -13,7 +13,6 @@
 [![Module](https://img.shields.io/npm/v/lali.svg)](https://www.npmjs.com/package/lali)
 [![Build](https://circleci.com/gh/idancali/lali.svg?style=svg)](https://circleci.com/gh/idancali/lali)
 [![Coverage](https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/test_coverage)](https://codeclimate.com/github/idancali/lali/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/maintainability)](https://codeclimate.com/github/idancali/lali/maintainability)
 [![Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
 ## Basic Usage
@@ -37,7 +36,6 @@ lali.link(<a .tar.gz link>).install(<local path>)
 Lali is well tested and releases are not published unless the coverage is in the high 90s.
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/test_coverage)](https://codeclimate.com/github/idancali/lali/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/maintainability)](https://codeclimate.com/github/idancali/lali/maintainability)
 
 ### Unit Tests
 
