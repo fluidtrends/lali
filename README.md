@@ -2,10 +2,8 @@
 <img src="https://raw.githubusercontent.com/idancali/lali/master/logo.png" width="256px">
 </p>
 
-<p align="center">
-<h1> Lali </h1>
-<h3> The Local Amorphous Link Installer </h3>
-</p>
+<h1 align="center"> Lali </h1>
+<h3 align="center"> The Local Amorphous Link Installer </h3>
 
 ## Summary
 
