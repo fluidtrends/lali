@@ -1,3 +1,3 @@
-const Template = require('./src/Template')
+const link = require('./src/link')
 
-module.exports = { Template }
+module.export = { link }
