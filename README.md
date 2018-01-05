@@ -21,7 +21,8 @@
 const lali = require('lali')
 
 // Install an amorphous link locally
-lali.link(<a .tar.gz link>).install(<local path>)
+lali.link(<a .tar.gz link>)
+     .install(<local path>)
      .then(() => {
        // Link data is now available locally
      })
@@ -30,7 +31,7 @@ lali.link(<a .tar.gz link>).install(<local path>)
      })
 ```
 
-## API
+## Core API
 
 ### link(url)
 
@@ -40,6 +41,26 @@ Creates a reference to an amorphous link.
 
 ```
 lali.link('http://some/url/goes/here.tar.gz')
+```
+
+## Link API
+
+### install(dest)
+
+*Returns a promise*
+
+Install the link at a local destination.
+
+**Example:**
+
+```
+lali.link('http://some/url/goes/here.tar.gz').install('/some/local/path')
+.then(() => {
+  // Link data is now available locally
+})
+.catch((error) => {
+  // Something went wrong and the link was not installed
+})
 ```
 
 ## Dependencies
