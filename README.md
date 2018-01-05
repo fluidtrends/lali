@@ -5,7 +5,8 @@
 <h1 align="center"> Lali </h1>
 <h3 align="center"> The Local Amorphous Link Installer </h3>
 <p align="center"> Lali helps you install amorphous links locally. Lali understands an amorphous link as being a remote Tar GZip archive.
- </p>
+</p>
+<hr/>
 
 ## Latest Build Status
 
