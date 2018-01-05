@@ -1,10 +1,11 @@
 {
   "name": "lali",
-  "version": "0.1.2",
-  "description": "lali",
-  "main": "index.js",
+  "version": "0.2.0",
+  "description": "Light Amorphous Link Installer",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "savor": "savor",
+    "test": "savor test",
+    "coverage": "savor coverage"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/idancali/lali",
   "dependencies": {
-    "coreutils": "0.x"
+    "got": "^8.0.1"
+  },
+  "devDependencies": {
+    "savor": "0.x"
   }
 }
