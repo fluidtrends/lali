@@ -8,7 +8,7 @@
 </p>
 <hr/>
 
-## Latest Build Status
+## Latest Release
 
 [![Module](https://img.shields.io/npm/v/lali.svg)](https://www.npmjs.com/package/lali)
 [![Build](https://circleci.com/gh/idancali/lali.svg?style=svg)](https://circleci.com/gh/idancali/lali)
