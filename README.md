@@ -2,9 +2,10 @@
 <img src="https://raw.githubusercontent.com/idancali/lali/master/logo.png" width="256px">
 </p>
 
-# Lali
+<h2 align="center"> Lali </h2>
+<h3 align="center"> The Local Amorphous Link Installer  </h3>
 
-### The Local Amorphous Link Installer
+# Summary
 
 [![Module](https://img.shields.io/npm/v/lali.svg)](https://www.npmjs.com/package/lali)
 [![Build](https://circleci.com/gh/idancali/lali.svg?style=svg)](https://circleci.com/gh/idancali/lali)
@@ -14,7 +15,7 @@
 
 Lali helps you install amorphous links locally. Lali understands an amorphous link as being a remote Tar GZip archive.
 
-## Basic Usage
+# Basic Usage
 
 ```
 // Import Lali with default options
