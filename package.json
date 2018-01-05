@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/idancali/lali",
   "dependencies": {
-    "got": "^8.0.1"
+    "got": "^8.0.1",
+    "tar": "^4.2.0"
   },
   "devDependencies": {
     "savor": "0.x"
