@@ -8,9 +8,8 @@
 </p>
 <hr/>
 
-## Latest Release
+## Latest Release [![Module](https://img.shields.io/npm/v/lali.svg)](https://www.npmjs.com/package/lali)
 
-[![Module](https://img.shields.io/npm/v/lali.svg)](https://www.npmjs.com/package/lali)
 [![Build](https://circleci.com/gh/idancali/lali.svg?style=svg)](https://circleci.com/gh/idancali/lali)
 [![Coverage](https://api.codeclimate.com/v1/badges/3218ab8690250b0aeeba/test_coverage)](https://codeclimate.com/github/idancali/lali/test_coverage)
 [![Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
