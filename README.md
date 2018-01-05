@@ -30,6 +30,18 @@ lali.link(<a .tar.gz link>).install(<local path>)
      })
 ```
 
+## API
+
+### link(url)
+
+Creates a reference to an amorphous link.
+
+**Example:**
+
+```
+lali.link('http://some/url/goes/here.tar.gz')
+```
+
 ## Dependencies
 
 Lali makes use of the following libraries:
