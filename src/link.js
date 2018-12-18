@@ -22,20 +22,24 @@ function _install (url, dest) {
 
 function _download (url, dest) {
   return new Promise((resolve, reject) => {
-    got.stream(url)
-        .pipe(zlib.createGunzip({
-          fromBase: false
-        }))
-        .pipe(tar.x({
-          strip: 1,
-          C: dest
-        }))
-        .on('end', () => {
-          resolve()
-        })
-        .on('error', (error) => {
-          reject(error)
-        })
+    try {
+      got.stream(url)
+          .pipe(zlib.createGunzip({
+            fromBase: false
+          }))
+          .pipe(tar.x({
+            strip: 1,
+            C: dest
+          }))
+          .on('end', () => {
+            resolve()
+          })
+          .on('error', (error) => {
+            reject(error)
+          })
+      } catch (e) {
+        reject(e)
+      }
   })
 }
 

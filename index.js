@@ -1,3 +1,3 @@
 const link = require('./src/link')
 
-module.export = { link }
+module.exports = { link }

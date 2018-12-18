@@ -1,6 +1,6 @@
 {
   "name": "lali",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Light Amorphous Link Installer",
   "scripts": {
     "savor": "savor",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/idancali/lali.git"
+    "url": "https://github.com/fluidtrends/lali.git"
   },
   "author": "Dan Calinescu <idancalinescu@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/idancali/lali/issues"
+    "url": "https://github.com/fluidtrends/lali/issues"
   },
-  "homepage": "https://github.com/idancali/lali",
+  "homepage": "https://github.com/fluidtrends/lali",
   "dependencies": {
     "got": "^8.0.1",
     "tar": "^4.2.0"
