@@ -33,7 +33,6 @@ function _download (url, dest) {
             C: dest
           }))
           .on('end', () => {
-            console.log("---->2")
             resolve()
           })
           .on('error', (error) => {
