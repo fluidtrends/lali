@@ -22,7 +22,8 @@ function _install (url, dest) {
 
 function _download (url, dest) {
   return new Promise((resolve, reject) => {
-    try {
+    _exists(url)
+    .then((response) => {
       got.stream(url)
           .pipe(zlib.createGunzip({
             fromBase: false
@@ -32,14 +33,16 @@ function _download (url, dest) {
             C: dest
           }))
           .on('end', () => {
+            console.log("---->2")
             resolve()
           })
           .on('error', (error) => {
             reject(error)
           })
-      } catch (e) {
-        reject(e)
-      }
+      })
+    .catch(e => {
+      reject(e)
+    })
   })
 }
 
