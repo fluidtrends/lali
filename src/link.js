@@ -1,7 +1,7 @@
 const got = require('got')
 const tar = require('tar')
 const zlib = require('zlib')
-const fs = require('fs-extra')
+const bz2 = require('unbzip2-stream')
 
 const link = function (name) {
   const url = _url(name)
@@ -25,9 +25,7 @@ function _download (url, dest) {
     _exists(url)
     .then((response) => {
       got.stream(url)
-          .pipe(zlib.createGunzip({
-            fromBase: false
-          }))
+          .pipe(url.endsWith('bz2') ? bz2() : zlib.createGunzip({ fromBase: false }))
           .pipe(tar.x({
             strip: 1,
             C: dest

@@ -1,6 +1,6 @@
 {
   "name": "lali",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "description": "Light Amorphous Link Installer",
   "scripts": {
     "savor": "savor",
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/fluidtrends/lali",
   "dependencies": {
     "got": "^8.0.1",
-    "tar": "^4.2.0"
+    "tar": "^4.2.0",
+    "unbzip2-stream": "^1.3.3"
   },
   "devDependencies": {
     "savor": "0.x"
